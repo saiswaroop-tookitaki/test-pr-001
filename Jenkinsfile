@@ -13,7 +13,8 @@ pipeline {
         }
     }
     post {
-    cleanup{
-        deleteDir()
-    }
+    	cleanup{
+        	deleteDir()
+    	}
+	}
 }
